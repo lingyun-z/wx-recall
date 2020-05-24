@@ -85,7 +85,7 @@ def send_msg_helper(msg):
 
 
 def main():
-    itchat.auto_login(enableCmdQR=True)
+    itchat.auto_login(enableCmdQR=2)
     itchat.run()
 
 
